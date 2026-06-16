@@ -9,9 +9,9 @@ from resources.utils import clean_text
 st.set_page_config(
     page_title="AI-Powered Outreach Assistant",
     page_icon="🚀",
-    layout="wide"
+    layout="wide" 
 )
- 
+
 st.markdown("""
 <style>
 

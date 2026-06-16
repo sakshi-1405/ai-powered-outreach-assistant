@@ -5,7 +5,7 @@ import uuid
 
 class Portfolio:
 
-    def __init__(self, file_path="app/resource/my_portfolio.csv"):
+    def __init__(self, file_path="app/resources/my_portfolio.csv"):
 
         self.file_path = file_path
 
@@ -19,7 +19,7 @@ class Portfolio:
             name="portfolio"
         )
 
-    def load_portfolio(self):
+    def load_portfolio(self): 
 
         if self.collection.count() == 0:
 
