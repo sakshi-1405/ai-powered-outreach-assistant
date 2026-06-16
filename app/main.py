@@ -1,9 +1,9 @@
 import streamlit as st
 from langchain_community.document_loaders import WebBaseLoader
 
-from resource.chains import Chain
-from resource.portfolio import Portfolio
-from resource.utils import clean_text
+from resources.chains import Chain
+from resources.portfolio import Portfolio
+from resources.utils import clean_text
 
 
 st.set_page_config(
@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="🚀",
     layout="wide"
 )
-
+ 
 st.markdown("""
 <style>
 
