@@ -3,7 +3,7 @@ langchain
 langchain-community
 langchain-core
 langchain-groq
-chromadb
+chromadb==0.5.5 
 pandas
 python-dotenv
 beautifulsoup4
