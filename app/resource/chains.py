@@ -6,12 +6,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.exceptions import OutputParserException
 
-load_dotenv(
-    dotenv_path=os.path.join(
-        os.path.dirname(__file__),
-        ".env"
-    )
-)
+load_dotenv() 
 
 
 class Chain:
